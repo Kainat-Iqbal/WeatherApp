@@ -1,0 +1,78 @@
+.display{
+
+    display: flex;
+    height: 15cm;
+}
+
+    .first{
+        background-image: url(../assets/HAZE.jpg);
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3%;
+        width: 10cm;
+    }
+        .first>div{
+            text-align: end;
+        }
+        .first>main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+    .second{
+        background: rgba(1, 1, 34, 0.514);
+        backface-visibility: .5;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: .75cm;
+     
+    }
+
+
+h1{
+    font-size: 1cm;
+}
+
+.srcBar{
+    display: flex;
+
+}
+.srcBar>input{
+    border-style: none;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.25);
+    
+}
+
+#not_found{
+    background-color: rgb(0, 0, 0, 0.25);
+    padding: 1cm;
+    >h2{
+        margin-bottom: 1cm;
+    }
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding-bottom: .4cm;
+    border-width: 0 0 1px 0;
+}
+
+.temp{
+    height: 1.75cm;
+    width: 1.75cm;
+}
+
+#condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
